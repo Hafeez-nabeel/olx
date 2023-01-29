@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.dum-border {
+  border: 2px solid red;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: contain;
+}
+.material-icons-outlined {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 10px;
+  border-radius: 50%;
+  background-color: rgb(245, 244, 244);
+  padding: 5px;
+}
+.navbar-brand {
+  font-size: 12px;
+}
+
+/* olx header */
+.olx-logo img {
+  width: 70px;
+}
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.select-position {
+  position: relative;
+}
+.select i {
+  font-size: 15px;
+  transition: all 0.3s;
+}
+.option-list-wrapper {
+  list-style: none;
+  /* border: 1px solid red; */
+  background-color: #fff;
+  display: none;
+  width: 90%;
+  position: absolute;
+  top: 5;
+  z-index: 5;
+}
+.option-list-wrapper li {
+  font-size: 15px;
+  margin-left: -30px;
+  /* border: 1px solid red; */
+}
+.option-list i {
+  color: #839a9c;
+}
+.drag-down {
+  margin-top: 110px;
+}
+
+.olx-search {
+  width: 100%;
+  padding: 5px;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid black;
+}
+.icon-position {
+  position: relative;
+}
+.olx-search:focus {
+  border-color: aqua;
+}
+.icon-mag {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+}
+.olx-btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: white;
+  border: 6px solid transparent;
+  padding: 5px 10px;
+  border-image: url(../images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg) 6 round;
+}
+.login {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: all0.3s;
+  /* font-size: 18px; */
+  border-bottom: 1px solid black;
+}
+.login:hover {
+  border-bottom: none;
+}
+
+.footerlist ul {
+  list-style: none;
+}
+.footer-icon-img .google img {
+  width: 48px;
+}
+/* .select p {
+  font-size: 10px;
+  width: 100%;
+} */
+
+/* Javascript classes */
+.hidden {
+  display: block;
+}
+.rotate {
+  transform: rotate(180deg);
+}
