@@ -114,9 +114,17 @@ p {
 .login:hover {
   border-bottom: none;
 }
+.footer {
+  background-color: #ebeeef;
+}
 
 .footerlist ul {
   list-style: none;
+}
+.footerlist ul li a {
+  text-decoration: none;
+  color: #839a9c;
+  font-size: 12px;
 }
 .footer-icon-img .google img {
   width: 48px;
@@ -125,7 +133,20 @@ p {
   font-size: 10px;
   width: 100%;
 } */
-
+.buysell {
+  color: #002f34;
+  font-size: 16px;
+}
+.getapp {
+  font-size: 14px;
+}
+.appimages {
+  display: flex;
+  gap: 10px;
+}
+.appimages a img {
+  width: 100px;
+}
 /* Javascript classes */
 .hidden {
   display: block;
